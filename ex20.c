@@ -10,8 +10,8 @@
 /*Faça um programa que receba a medida do ângulo formado por uma escada apoiada no chão e a distância que a escada está da parede. Calcule e mostre a medida da escada para que se possa alcançar a ponta da escada. */
 
 // declara as variáveis angulo, base e hipotenusa e coseno
+
 float angulo, base, hipotenusa;
-double seno, coseno;
 int main()
 {
     printf("\nRecebe a medida do ângulo formado por uma escada apoiada no chão e a distância que a escada está da parede.");
@@ -23,11 +23,9 @@ int main()
 	printf("Distância: ");
 	scanf("%f", &base); // guarda o valor em base
 
-	seno = sin(angulo);
-	printf("\nSeno de %.2f = %.2f", angulo, seno);
-
-	coseno = cos(angulo);
-	printf("\nCoseno de %.2f = %.2f\n", angulo, coseno);
+    hipotenusa = base / cos(angulo);
+    
+    printf("\nA medida da escada é %.2f \n\n", hipotenusa);
 
 	return 0;
 }
