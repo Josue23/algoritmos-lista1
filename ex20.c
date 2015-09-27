@@ -24,6 +24,11 @@ int main()
 	scanf("%f", &base); // guarda o valor em base
 
     hipotenusa = base / cos(anguloBase);
+	if (hipotenusa < 0) // valida se a hipotenusa é um valor positivo
+	{
+		hipotenusa = hipotenusa * (-1);
+	}
+
 	altura = sqrt(pow(hipotenusa, 2) - pow(base, 2)); // calcula a altura
 
     printf("\nA medida da escada é %.2f \n", hipotenusa);
