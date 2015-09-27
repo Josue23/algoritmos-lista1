@@ -11,21 +11,23 @@
 
 // declara as variáveis angulo, base e hipotenusa e coseno
 
-float angulo, base, hipotenusa;
+float altura, anguloBase, base, hipotenusa;
 int main()
 {
     printf("\nRecebe a medida do ângulo formado por uma escada apoiada no chão e a distância que a escada está da parede.");
     printf("\nCalcula e mostra a medida da escada para que se possa alcançar a ponta da escada. \n");
     
 	printf("\nÂngulo: ");
-	scanf("%f", &angulo); // guarda o valor na variável angulo
+	scanf("%f", &anguloBase); // guarda o valor na variável angulo
 
 	printf("Distância: ");
 	scanf("%f", &base); // guarda o valor em base
 
-    hipotenusa = base / cos(angulo);
-    
-    printf("\nA medida da escada é %.2f \n\n", hipotenusa);
+    hipotenusa = base / cos(anguloBase);
+	altura = sqrt(pow(hipotenusa, 2) - pow(base, 2)); // calcula a altura
+
+    printf("\nA medida da escada é %.2f \n", hipotenusa);
+	printf("A altura da escada é %.2f\n\n", altura);
 
 	return 0;
 }
