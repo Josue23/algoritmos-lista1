@@ -11,7 +11,7 @@
 
 // declara as variáveis angulo, base e hipotenusa e coseno
 
-float altura, anguloBase, base, hipotenusa;
+float altura, anguloBase, anguloAltura, base, hipotenusa;
 int main()
 {
     printf("\nRecebe a medida do ângulo formado por uma escada apoiada no chão e a distância que a escada está da parede.");
@@ -30,9 +30,11 @@ int main()
 	}
 
 	altura = sqrt(pow(hipotenusa, 2) - pow(base, 2)); // calcula a altura
+	anguloAltura = 180 - (90 + anguloBase);
 
-    printf("\nA medida da escada é %.2f \n", hipotenusa);
-	printf("A altura da escada é %.2f\n\n", altura);
+	printf("\nA medida da escada é %.2f \n", hipotenusa);
+	printf("A altura da escada é %.2f\n", altura);
+	printf("Os três ângulos do triângulo são: 90, %.2f e %.2f graus. \n\n", anguloBase, anguloAltura);
 
 	return 0;
 }
