@@ -8,9 +8,10 @@
  */
 /*faça um programa que receba o valor do salário mínimo e o valor do salário de um funcionário, calcule e mostre a quantidade de salários mínimos que ganha esse funcionário*/
 
-float salarioMinimo, salario, total;
 int main()
 {
+	float salarioMinimo, salario, total;
+
     printf("\nCalcula e mostra a quantidade de salários mínimos que ganha um funcionário. \n");
     
     printf("Salário mínimo: ");

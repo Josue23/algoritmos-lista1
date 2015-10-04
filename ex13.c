@@ -8,9 +8,10 @@
  */
 /*faça um programa que calcule e mostre a tabuada de um número digitado pelo usuário.*/
 
-int numero, contador; // declara as variáveis numero e contador
 int main()
 {
+	int numero, contador; // declara as variáveis numero e contador
+
     printf("\nCalcula e mostra a tabuada de um número. \n");
     
     printf("\nNúmero: ");

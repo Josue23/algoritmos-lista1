@@ -12,10 +12,11 @@
     c) a idade dessa pessoa em dias;
     d) a idade dessa pessoa em semanas.*/
 
-// declara as variáveis anoNascimento, anoAtual, anos, meses, dias e semanas
-int anoNascimento, anoAtual, anos, meses, dias, semanas;
 int main()
 {
+	// declara as variáveis anoNascimento, anoAtual, anos, meses, dias e semanas
+	int anoNascimento, anoAtual, anos, meses, dias, semanas;
+
     printf("\nMostra a idade em anos, meses, dias e semanas. \n");
     
     printf("\nAno de nascimento: ");

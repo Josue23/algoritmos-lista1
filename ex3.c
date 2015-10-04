@@ -10,9 +10,10 @@
 
 // n1 é o número 1
 // n2 é o número 2
-float n1, n2; // declara as variáveis n1 e n2
 int main()
 {
+	float n1, n2; // declara as variáveis n1 e n2
+
     printf("\nRecebe dois números, calcula e mostra a divisão do primeiro número pelo segundo.\n");
     printf("\nDigite o primeiro número: ");
 	scanf("%f", &n1); // guarda o valor em n1

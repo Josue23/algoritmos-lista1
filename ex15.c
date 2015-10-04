@@ -8,9 +8,10 @@
  */
 /*João recebeu seu salário e precisa pagar duas contas que estão atrasadas. Como as contas estão atrasadas, João terá de pagar multa de 2% sobre cada conta. Faça um programa que calcule e mostre quanto restará do salário de João.*/
 
-float salario, conta1, conta2; // declara as variáveis salario, conta1 e conta2
 int main()
 {
+	float salario, conta1, conta2; // declara as variáveis salario, conta1 e conta2
+
     printf("\nMostra quanto resta do salário depois de pagar duas contas com multa de 2%%. \n");
     
     printf("\nSalário: ");
@@ -27,9 +28,9 @@ int main()
 	// calcula o valor da conta2 com 2% de multa e guarda na variável conta2
     conta2 = conta2 + conta2 * 2 / 100; 
 
-    printf("\nSalário:  R$ %.2f ", salario);// imprime o valor de salario
-    printf("\nConta:     R$ %.2f ", conta1);// imprime o valor de conta1
-    printf("\nConta:     R$ %.2f ", conta2);// imprime o valor de conta2
+    printf("\nSalário:   R$ %.2f ", salario);// imprime o valor de salario
+    printf("\nConta:      R$ %.2f ", conta1);// imprime o valor de conta1
+    printf("\nConta:      R$ %.2f ", conta2);// imprime o valor de conta2
 	// imprime o valor restante
     printf("\nRestante:  R$ %.2f \n\n", salario - conta1 - conta2);
     

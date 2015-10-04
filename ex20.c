@@ -9,11 +9,11 @@
  */
 /*Faça um programa que receba a medida do ângulo formado por uma escada apoiada no chão e a distância que a escada está da parede. Calcule e mostre a medida da escada para que se possa alcançar a ponta da escada. */
 
-// declara as variáveis angulo, base e hipotenusa e coseno
-
-float altura, anguloBase, anguloAltura, base, hipotenusa;
 int main()
 {
+	// declara as variáveis altura, anguloBase, anguloAltura, base, hipotenusa e coseno
+	float altura, anguloBase, anguloAltura, base, hipotenusa;
+
     printf("\nRecebe a medida do ângulo formado por uma escada apoiada no chão e a distância que a escada está da parede.");
     printf("\nCalcula e mostra a medida da escada para que se possa alcançar a ponta da escada. \n");
     

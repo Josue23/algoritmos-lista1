@@ -8,10 +8,11 @@
  */
 /*Sabe-se que para iluminar de maneira correta os cômodos de uma casa, para cada m², deve-se usar 18 W de potência. Faça um programa que receba as duas dimensôes de um cômodo (em metros), calcule e mostre a sua área (em m²) e a potência de iluminação que deverá ser utilizada. */
 
-// declara as variáveis lado1, lado2, area e potencia 
-float lado1, lado2, area, potencia;
 int main()
 {
+	// declara as variáveis lado1, lado2, area e potencia 
+	float lado1, lado2, area, potencia;
+
     printf("\nCalcula e mostra a potência necessária para iluminar uma área. \n");
     
 	printf("\nPrimeiro lado: ");

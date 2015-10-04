@@ -9,10 +9,11 @@
 /*faça um programa que calcule e mostre a área de um trapézio.
 Sabe-se que: A = ((base maior + base menor) * altura) /2 */
 
-// declara as variáveis baseMenor, baseMaior, altura e area
-float baseMenor, baseMaior, altura, area;
 int main()
 {
+	// declara as variáveis baseMenor, baseMaior, altura e area
+	float baseMenor, baseMaior, altura, area;
+
     printf("\nCalcula e mostra a área de um trapézio.\n");
     
     printf("\nDigite o valor da base menor: ");
@@ -31,11 +32,11 @@ int main()
 
 	/*
 	printf(     "----------\n");
-	printf(    "/"         "\\n");
-	printf(   "/"           "\\n");
-	printf(  "/"             "\\n");
-	printf( "/"               "\\n");
-	printf("---------------------\n\n");
+	printf(    "/          \\\n");
+	printf(   "/            \\\n");
+	printf(  "/              \\\n");
+	printf( "/                \\\n");
+	printf("--------------------\n\n");
 	*/
     
     return 0;

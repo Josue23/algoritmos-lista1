@@ -13,9 +13,10 @@
  * 	d) a quantia a receber pelas horas extras equivale ao número de horas extras trabalhadas multiplicado pelo valor da hora extra;
  * 	e) o salário a receber equivale ao salário bruto mais a quantia a receber pelas horas extras. */
 
-float qtdHoras, horasExtras, salarioMinimo, salarioBruto, total;
 int main()
 {
+	float qtdHoras, horasExtras, salarioMinimo, salarioBruto, total;
+
     printf("\nRecebe o número de horas trabalhadas, o valor do salário mínimo e o número de horas extras trabalhadas.");
     printf("\nCalcula e mostra o salário a receber. \n");
     

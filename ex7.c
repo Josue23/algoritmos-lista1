@@ -10,9 +10,10 @@
 a) o novo peso se a pessoa engordar 15% sobre o peso digitado;
 b) o novo peso se a pessoa emagrecer 20% sobre o peso digitado;*/
 
-float peso, engordou, emagreceu; // declara as variáveis peso, engordou e emagreceu
 int main()
 {
+	float peso, engordou, emagreceu; // declara as variáveis peso, engordou e emagreceu
+
     printf("\nRecebe o peso de uma pessoa e informa o novo peso se engordar 15%% ou emagrecer 20%%. \n");
     printf("\nPeso: ");
     scanf("%f", &peso); // guarda o valor em peso

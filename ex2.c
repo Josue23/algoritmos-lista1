@@ -11,9 +11,10 @@
 // n1 é o número 1
 // n2 é o número 2
 // n3 é o número 3
-float n1, n2, n3; // declara as variáveis n1, n2 e n3
 int main()
 {
+	float n1, n2, n3; // declara as variáveis n1, n2 e n3
+
     printf("\nRecebe três números, calcula e mostra a multiplicação desses números.\n");
     printf("\nDigite o primeiro número: ");
 	scanf("%f", &n1); // guarda o valor em n1

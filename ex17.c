@@ -12,10 +12,11 @@
 	b) a área de uma esfera, sabe-se que A = ΠR²;
 	c) o volume de uma esfera, sabe-se que V = 3/4ΠR³; */
 
-// declara as variáveisis pi, raio, comprimento, area e volume
-float pi, raio, comprimento, area, volume;
 int main()
 {
+	// declara as variáveisis pi, raio, comprimento, area e volume
+	float pi, raio, comprimento, area, volume;
+
     printf("\nRecebe o raio de uma esfera, calcula e exibe: ");
     printf("\nO comprimento, a área e o volume da esfera. \n");
     

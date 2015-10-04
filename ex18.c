@@ -9,9 +9,10 @@
 /*Faça um programa que receba uma temperatura em Calsius, calcule e mostre essa temperatura em Fahrenheit.
 Sabe-se que F = 180(C + 32) / 100 */
 
-float celsius, fahrenheit; // declara as variáveis celsius e fahrenheit
 int main()
 {
+	float celsius, fahrenheit; // declara as variáveis celsius e fahrenheit
+
     printf("\nConverte temperatura em Calsius em Fahrenheit. \n");
     
 	printf("\nCelsius: ");

@@ -11,9 +11,10 @@ o cálculo pode ser conferido nesse site: http://www.gyplan.com/pt/weighted_mean
 
 // n1 é o número 1
 // n2 é o número 2
-float n1, n2; // declara as variáveis n1 e n2
 int main()
 {
+	float n1, n2; // declara as variáveis n1 e n2
+
     printf("\nRecebe duas notas, calcula e mostra a média ponderada dessas notas. ");
     printf("\nConsiderando peso 2 para a primeira nota e peso 3 para a segunda nota. \n");
     printf("\nDigite a primeira nota: ");

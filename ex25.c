@@ -10,9 +10,10 @@
  * 	a) a hora digitada convertida em minutos;
  * 	b) o total dos minutos, ou seja, os minutos digitados mais a conversão anterior;
  * 	c) o total dos minutos convertidos em segundos.*/
-int horas, minutos;
 int main()
 {
+	int horas, minutos;
+
     printf("\nConverte horas em minutos e segundos. \n");
     
 	printf("\nHora: ");

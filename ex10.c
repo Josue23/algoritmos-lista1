@@ -9,9 +9,10 @@
 /*faça um programa que calcule e mostre a área de um quadrado.
 Sabe-se que: A = lado * lado */
 
-float lado1, lado2, area; // declara as variáveis lado1, lado2 e area
 int main()
 {
+	float lado1, lado2, area; // declara as variáveis lado1, lado2 e area
+
     printf("\nCalcula e mostra a área de um quadrado. \n");
     
     printf("\nPrimeiro lado: ");
